@@ -5,6 +5,7 @@ export default function Sidebar() {
 
   const navItems = [
     { to: "/dashboard", label: "Dashboard" },
+    {to: "/dashboard/assign-customers", label: "Assign Customers" },
     { to: "/dashboard/services", label: "Services" },
     { to: "/dashboard/banners", label: "Banners" },
     { to: "/dashboard/categories", label: "Categories" },

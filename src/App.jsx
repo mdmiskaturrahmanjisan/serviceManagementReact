@@ -10,6 +10,7 @@ import Categories from "./dashboard/pages/Categories";
 import SubCategories from "./dashboard/pages/SubCategories";
 import Coupons from "./dashboard/pages/Coupons";
 import Medias from "./dashboard/pages/Medias";
+import AssignCustomers from "./dashboard/pages/AssignCustomers";
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
         {/* DASHBOARD ROUTES */}
         <Route path="/dashboard" element={<DashboardLayout />}>
           <Route index element={<Dashboard />} />
+          <Route path="assign-customers" element={<AssignCustomers />} />
           <Route path="banners" element={<Banners />} />
           <Route path="categories" element={<Categories />} />  
            <Route path="sub_categories" element={<SubCategories />} />  
